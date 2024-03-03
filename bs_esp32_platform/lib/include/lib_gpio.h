@@ -1,8 +1,8 @@
 /**
- * \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
+ * \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
  *
  * \file lib_gpio.h
- * \brief gpio library header file.
+ * \brief GPIO library header file.
  *
  * The gpio library handles gpio pin operations.
  *

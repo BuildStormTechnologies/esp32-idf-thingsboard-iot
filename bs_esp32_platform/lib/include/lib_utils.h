@@ -1,5 +1,5 @@
 /**
-* \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
+* \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
 *
 * \file lib_utils.h
 * \brief Utils library header file.
@@ -27,8 +27,10 @@
 /**********************************************************************************************
                       LOGIC level
 *********************************************************************************************/
+#ifndef HIGH
 #define LOW 0x00u
 #define HIGH 0x01u
+#endif
 /***************************************************************************************/
 
 /**********************************************************************************************
@@ -163,4 +165,5 @@ int32_t util_getNumFromStringI32(const char *pStr);
 bool util_isValidString(const char *pStr);
 void util_hexDump(uint8_t *buffPtr, uint16_t dumpSize, uint8_t charsPerLine, bool asciiEnable);
 float util_getFloatFromString(const char *pStr, uint8_t decPoints);
-#endif
+
+#endif //_LIB_UTILS_H_

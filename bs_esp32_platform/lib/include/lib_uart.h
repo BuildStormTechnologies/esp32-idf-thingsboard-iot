@@ -1,5 +1,5 @@
 /**
- * \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
+ * \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
  *
  * \file lib_uart.h
  * \brief UART library header file.
@@ -9,7 +9,6 @@
  * The libraries have been tested on the ESP32 modules.
  * Buildstorm explicitly denies responsibility for any hardware failures
  * arising from the use of these libraries, whether directly or indirectly.
-
  *
  * EULA LICENSE:
  * This library is licensed under end user license EULA agreement.

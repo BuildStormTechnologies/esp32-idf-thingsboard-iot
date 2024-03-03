@@ -1,11 +1,11 @@
 /**
-* \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
+* \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
 *
 * \file lib_msg.h
-* \brief MSG library header file.
+* \brief MsgTypes library header file.
 *
-* The MSG library provides the structures and enums for message operations.
 *
+* This file defines the MQTT, HTTP and BLE packet structure.
 *
 * The libraries have been tested on the ESP32 modules.
 * Buildstorm explicitly denies responsibility for any hardware failures
@@ -77,4 +77,4 @@ typedef struct
     uint8_t data_a8[LENGTH_HTTP_PACKET]; /*!< Received packet data */
 } packet_st;
 
-#endif // LIB_MSG_H_
+#endif //LIB_MSG_H_

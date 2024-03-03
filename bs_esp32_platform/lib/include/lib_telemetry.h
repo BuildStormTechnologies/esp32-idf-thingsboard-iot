@@ -1,5 +1,5 @@
 /**
- * \copyright Copyright (c) 2021 - 2024, Buildstorm Pvt Ltd
+ * \copyright Copyright (c) 2019 - 2024, Buildstorm Pvt Ltd
  *
  * \file lib_telemetry.h
  * \brief Thingboard telemetry library file

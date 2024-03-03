@@ -1,21 +1,23 @@
 /**
- * \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
- *
- * \file lib_flash.h
- * \brief Flash library header file.
- *
- * The Flash library handles read, write and erase of the device configuration and data.
- *
- * The libraries have been tested on the ESP32 modules.
- * Buildstorm explicitly denies responsibility for any hardware failures
- * arising from the use of these libraries, whether directly or indirectly.
- *
- * EULA LICENSE:
- * This library is licensed under end user license EULA agreement.
- * The EULA is available at https://buildstorm.com/eula/
- * For any support contact us at hello@buildstorm.com
- *
- */
+* \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
+*
+* \file lib_flash.h
+* \brief Flash library header file.
+*
+* This file defines the structure and enums used by the Flash library.
+*
+*
+* The libraries have been tested on the ESP32 modules.
+* Buildstorm explicitly denies responsibility for any hardware failures
+* arising from the use of these libraries, whether directly or indirectly.
+
+*
+* EULA LICENSE:
+* This library is licensed under end user license EULA agreement.
+* The EULA is available at https://buildstorm.com/eula/
+* For any support contact us at hello@buildstorm.com
+*
+*/
 
 #ifndef _LIB_MODULE_FLASH_H_
 #define _LIB_MODULE_FLASH_H_

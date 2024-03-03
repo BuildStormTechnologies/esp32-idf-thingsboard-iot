@@ -1,8 +1,8 @@
 /**
- * \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
+ * \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
  *
  * \file lib_ble.h
- * \brief BLE library header file.
+ * \brief A BLE library file
  *
  * The Ble library handles Ble core operations.
  *

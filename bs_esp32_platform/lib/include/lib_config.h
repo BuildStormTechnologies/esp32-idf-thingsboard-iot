@@ -1,5 +1,5 @@
 /**
- * \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
+ * \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
  *
  * \file lib_config.h
  * \brief Config library header file.
@@ -38,13 +38,12 @@ typedef enum
     PRINT_LEVEL_VERBOSE = 1, /*!< Prints log messages of both Error & Verbose level */
     PRINT_LEVEL_INFO = 2,    /*!< Prints log messages of Error, Verbose & Info level */
     PRINT_LEVEL_DEBUG = 3,   /*!< Prints log messages of all levels */
-    PRINT_LEVEL_DEMO = 4,    /*!< Prints demo logs, used for better logging of demos examples */
-    PRINT_LEVEL_MAX = 5      /*!< Total number of log levels */
+    PRINT_LEVEL_MAX = 4      /*!< Total number of log levels */
 } logLevels_et;
 
-#define LOG_LEVEL_MAPPING       \
-    {                           \
-        'n', 'e', 'i', 'd', '0' \
+#define LOG_LEVEL_MAPPING  \
+    {                      \
+        'n', 'e', 'i', 'd' \
     }
 #define GLOBAL_LOG_LEVEL PRINT_LEVEL_ERROR
 

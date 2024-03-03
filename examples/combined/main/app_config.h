@@ -1,11 +1,12 @@
-/*******************************************************************************
- * Copyright (c) 2021, Buildstorm Pvt Ltd
+/**
+ * \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
  *
- * Filename:     lib_config.h
+ * \file app_config.h
+ * \brief app_config header file.
  *
- * Description:
- *               Contains macros for the application
- *******************************************************************************/
+ * The app_config Contains macros for the application.
+ *
+ */
 
 #ifndef _APP_CONFIG_H_
 #define _APP_CONFIG_H_

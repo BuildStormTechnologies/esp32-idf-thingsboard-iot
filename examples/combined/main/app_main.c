@@ -1,3 +1,13 @@
+/**
+ * \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
+ *
+ * \file app_main.c
+ * \brief app_main.c file.
+ *
+ * The app_main.c is the main entry of the application.
+ *
+ */
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stddef.h>
@@ -71,7 +81,6 @@ void attributeUpdateCallBack(const char *pKeyStr, const void *pValue, valueType_
 
 void app_task(void *param)
 {
-    mqttMsg_st s_mqttMsg = {0};
     static uint32_t nextPubTime = 0;
     uint32_t temp_u32 = 20;
     float humidity = 10.0;
@@ -111,10 +120,13 @@ void app_main()
     systemInitConfig_st sysConfig = {
         .systemEventCallbackHandler = app_eventsCallBackHandler,
         .pAppVersionStr = APP_VERSION,
+        /* Wifi Configuration*/
         // .pWifiSsidStr = TEST_WIFI_SSID,
         // .pWifiPwdStr = TEST_WIFI_PASSWORD,
+        /* Attributes and Telemtery Configuration */
         .maxAttributes_u8 = 4,
         .maxTelemetryElements_u8 = 2,
+        /* Thingsboard Configuration */
         // .s_mqttClientConfig = {
         //     .pUriStr = THINGSBOARD_URI,
         //     .pProvisionDeviceKey = PROVISION_DEVICE_KEY,

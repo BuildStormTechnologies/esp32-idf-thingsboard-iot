@@ -1,33 +1,28 @@
 /**
-* \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
-*
-* \file lib_system.h
-* \brief System library header file.
-*
-* The system library initializes the system by managing core operations,
-* including WiFi, BLE, MQTT, and HTTP communication for data transfers.
-* It also manages flash storage operations, error handling, device logs,
-* and supports OTA firmware updates.
-*
-* The libraries have been tested on the ESP32 modules.
-* Buildstorm explicitly denies responsibility for any hardware failures
-* arising from the use of these libraries, whether directly or indirectly.
+ * \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
+ *
+ * \file lib_system.h
+ * \brief System library header file.
+ *
+ * The system library initializes the system by managing core operations,
+ * including WiFi, BLE, MQTT, and HTTP communication for data transfers.
+ * It also manages flash storage operations, error handling, device logs,
+ * and supports OTA firmware updates.
+ *
+ * The libraries have been tested on the ESP32 modules.
+ * Buildstorm explicitly denies responsibility for any hardware failures
+ * arising from the use of these libraries, whether directly or indirectly.
 
-*
-* EULA LICENSE:
-* This library is licensed under end user license EULA agreement.
-* The EULA is available at https://buildstorm.com/eula/
-* For any support contact us at hello@buildstorm.com
-*
-*/
+ *
+ * EULA LICENSE:
+ * This library is licensed under end user license EULA agreement.
+ * The EULA is available at https://buildstorm.com/eula/
+ * For any support contact us at hello@buildstorm.com
+ *
+ */
 
 #ifndef _LIB_SYSTEM_H_
 #define _LIB_SYSTEM_H_
-
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "freertos/event_groups.h"
-#include "freertos/queue.h"
 
 #include "lib_thingsboard.h"
 #include "lib_mqtt.h"

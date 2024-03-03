@@ -1,7 +1,7 @@
 /**
-* \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
+* \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
 *
-* \file LibJson.h
+* \file lib_json.h
 * \brief Json library header file.
 *
 * The JSON library provides the API's form JSON parsing

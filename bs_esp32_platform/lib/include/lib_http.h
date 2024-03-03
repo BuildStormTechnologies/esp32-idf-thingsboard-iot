@@ -1,10 +1,11 @@
 /**
-* \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
+* \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
 *
 * \file lib_http.h
 * \brief Http library header file.
 *
-* The Http library handles http requests.
+*
+* This file defines the structure and enums used by the HTTP library and handles http requests.
 *
 * The libraries have been tested on the ESP32 modules.
 * Buildstorm explicitly denies responsibility for any hardware failures

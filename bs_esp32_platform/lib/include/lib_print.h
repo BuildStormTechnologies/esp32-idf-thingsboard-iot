@@ -1,23 +1,22 @@
 /**
-* \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
-*
-* \file lib_print.h
-* \brief Print library header file.
-*
-* The print library provides the API's for print operations
-*
-*
-* The libraries have been tested on the ESP32 modules.
-* Buildstorm explicitly denies responsibility for any hardware failures
-* arising from the use of these libraries, whether directly or indirectly.
+ * \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
+ *
+ * \file lib_print.h
+ * \brief Print library header file.
+ *
+ * The print library provides the API's for print operations
+ *
+ * The libraries have been tested on the ESP32 modules.
+ * Buildstorm explicitly denies responsibility for any hardware failures
+ * arising from the use of these libraries, whether directly or indirectly.
 
-*
-* EULA LICENSE:
-* This library is licensed under end user license EULA agreement.
-* The EULA is available at https://buildstorm.com/eula/
-* For any support contact us at hello@buildstorm.com
-*
-*/
+ *
+ * EULA LICENSE:
+ * This library is licensed under end user license EULA agreement.
+ * The EULA is available at https://buildstorm.com/eula/
+ * For any support contact us at hello@buildstorm.com
+ *
+ */
 
 #ifndef _LIB_PRINT_H_
 #define _LIB_PRINT_H_
@@ -97,13 +96,11 @@ void print_mallocFailedMsg(const char *pFunNameStr, const char *failMsg);
 
 #define print_verbose(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_VERBOSE, __func__, var_arg_list)
 #define print_error(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_ERROR, __func__, var_arg_list)
-#define print_demo(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_DEMO, __func__, var_arg_list)
 #define print_info(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_INFO, __func__, var_arg_list)
 #define print_debug(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_DEBUG, __func__, var_arg_list)
 
 #define print_verbose_raw(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_VERBOSE, NULL, var_arg_list)
 #define print_error_raw(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_ERROR, NULL, var_arg_list)
-#define print_demo_raw(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_DEMO, NULL, var_arg_list)
 #define print_info_raw(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_INFO, NULL, var_arg_list)
 #define print_debug_raw(var_arg_list...) print_serial(thisModule, PRINT_LEVEL_DEBUG, NULL, var_arg_list)
 

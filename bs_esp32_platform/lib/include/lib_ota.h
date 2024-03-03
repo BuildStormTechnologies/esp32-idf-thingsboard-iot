@@ -1,23 +1,21 @@
 /**
-* \copyright Copyright (c) 2021-2024, Buildstorm Pvt Ltd
-*
-* \file lib_ota.h
-* \brief ota library header file.
-*
-* The ota library provides the API's for ota operations
-*
-*
-* The libraries have been tested on the ESP32 modules.
-* Buildstorm explicitly denies responsibility for any hardware failures
-* arising from the use of these libraries, whether directly or indirectly.
-
-*
-* EULA LICENSE:
-* This library is licensed under end user license EULA agreement.
-* The EULA is available at https://buildstorm.com/eula/
-* For any support contact us at hello@buildstorm.com
-*
-*/
+ * \copyright Copyright (c) 2019-2024, Buildstorm Pvt Ltd
+ *
+ * \file lib_ota.h
+ * \brief OTA library header file.
+ *
+ * The ota library provides the API's for ota operations
+ *
+ * The libraries have been tested on the ESP32 modules.
+ * Buildstorm explicitly denies responsibility for any hardware failures
+ * arising from the use of these libraries, whether directly or indirectly.
+ *
+ * EULA LICENSE:
+ * This library is licensed under end user license EULA agreement.
+ * The EULA is available at https://buildstorm.com/eula/
+ * For any support contact us at hello@buildstorm.com
+ *
+ */
 
 #ifndef _LIB_OTA_H_
 #define _LIB_OTA_H_
