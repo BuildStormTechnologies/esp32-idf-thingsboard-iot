@@ -18,7 +18,7 @@ Supported features:
 
 1. [ThingsBoard IoT Platform](https://buildstorm.com/solutions/esp32-thingsboard-iot-platform/)
 
-## Blogs
+## Reference
 
 1. [Device Provisioning Setup](https://buildstorm.com/blog/thingsboard-iot-device-provisioning-setup/)
 2. [OTA Updates](https://buildstorm.com/blog/thingsboard-ota-updates/)
