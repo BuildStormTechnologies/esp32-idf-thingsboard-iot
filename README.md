@@ -14,9 +14,12 @@ Supported features:
 5. Local websever OTA
 6. BLE Device Provisioning
 
-## References
+## Solution
 
 1. [ThingsBoard IoT Platform](https://buildstorm.com/solutions/esp32-thingsboard-iot-platform/)
+
+## References
+
 1. [Device Provisioning Setup](https://buildstorm.com/blog/thingsboard-iot-device-provisioning-setup/)
 2. [OTA Updates](https://buildstorm.com/blog/thingsboard-ota-updates/)
 3. [Mobile App: User Manual](https://buildstorm.com/blog/thingsboard-mobile-app-user-manual/)
